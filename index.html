@@ -153,7 +153,7 @@
         }
         .layer4{
             width: 100%;
-            height: 3360px;
+            height: 3260px;
         }
         .layer4 .tittle{
             width: 540px;
@@ -170,14 +170,14 @@
             height: 280px;
             float: left;
         }
-        .layer4 .p1{
+        .wrap1 .p1{
             font-family: cursive;
             font-weight: bolder;
             font-size: 25px;
             margin-bottom: 40px;
             text-align: center;
         }
-        .layer4 .p2{
+        .wrap1 .p2{
             color: gray;
             text-align: center;
 
@@ -192,20 +192,134 @@
         .layer4 .wrap2{
             width: 970px;
             height: 780px;
-            margin: 0 auto;
+            margin: 100px auto;
             display: flex;
             flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
         }
         .wrap2 img{
             width: 570px;
             height: 350px;
         }
         .wrap2 .text1,.text2{
-            width: 300px;
-            height: 350px;
+            width: 310px;
+            height: fit-content;
+        }  
+        .wrap2 .p1{
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .wrap2 .p2{
+            color: gray;
+        }
+        .line2{
+            clear: both;
+            color:gray;
+        }
+        .wrap3 .p1{
+            width: fit-content;
+            margin: 95px auto 25px;
+            font-size: 30px;
+
+        }
+        .wrap3 .p2{
+            width: fit-content;
+            margin: 0 auto 60px;
+            color: gray;
+            text-align: center;
+        }
+        .picture{
+            width: 970px;
+            height: 780px;
+            margin: 0px auto 50px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .picture img{
+            width: 475px;
+            height: 345px;
+        }
+        .wrap4{
+            width: 970px;
+            height: fit-content;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .wrap4 .left{
+            width: 485px;
+            height: 555px;
+            border: gray 1px solid;
+            border-radius: 20px;
+            margin: 120px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .left p{
+            font-size: 18px;
+            width: fit-content;
+           
+        }
+        .left input{
+            width: 370px;
+            height: 45px;
+            color: gray;
+        }
+       .left .three{
+           height: 150px;
+        }
+        .right{
+            height: fit-content;
+        }
+        .right .p1{
+            font-size: 30px;
+        }
+        .right .p2{
+            margin: 30px 0 60px;
+            color: gray;
+        }
+        .iconfont1{
+            font-size: 20px;
+        }
+        .right .item2{
+            margin: 30px 0;
+        }
+        .right .span2{
+            display: inline-block;
+        }
+        .bottom{
+            width: 100%;
+            height: 420px;
+            background-color: black;
+            color:gray;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bottom .p1{
+            color: white;
+        }
+        .bottom .item{
+            height: 200px;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 85px;   
+        }
+        .bottom .item4{
+            height: 150px;
+        }
+        .bottom span{
+            display: inline-block;
+            margin-right: 30px;
         }
 
-        
     </style>
 </head>
 <body>
@@ -308,22 +422,96 @@
             <div class="wrap2">
                 <img src="flower.jpg">
                 <div class="text1">
-                    <p>Learn How to Improve Your Personal Business</p>
-                    <p>Li Jun, a China Academy of Engineering<br/> academician and also director of the<br/>
+                    <p class="p1">Learn How to Improve Your Personal Business</p>
+                    <p class="p2">Li Jun, a China Academy of Engineering<br/> academician and also director of the<br/>
                     alliances experts committe ,said that<br/>China will also launch design guicance<br/>
                 for smart cars,smart map architecture<br/> and standards for test grouds</p>
                 </div>
-                <img src="bird.jpg">
                 <div class="text2">
-                    <p>Choose Between Two Beautifully Designed Color Schemes.</p>
-                    <p>China will come up with its own smart <br/>car standards.
+                    <p class="p1">Choose Between Two Beautifully Designed Color Schemes.</p>
+                    <p class="p2">China will come up with its own smart <br/>car standards.
                         traffic rules,layers and reg-<br/>ulations relating to safety.according
                         to<br/> the ChinaIndusty Innovation Alliance<br/> for the Intelligent and
-                        Connected <br/>Vehicles</p></p>
+                        Connected <br/>Vehicles</p>
                 </div>
-            </div>    
+                <img src="bird.jpg">
+            </div> 
+            <hr class="line2">
+            <div class="wrap3">
+                <div class="text1">
+                    <p class="p1">Our Awesome Crew</p>
+                    <p class="p2">Our unique online teaching style makes learning easy for everyone.Whether you<br/>
+                    are trying to land a new job.brush up on your skills</p>
+                </div>
+                <div class="picture">
+                    <div class="picture0">
+                        <img src="person0.jpg">
+                    </div>
+                    <img src="person1.jpg">
+                    <img src="person2.jpg">
+                    <img src="person3.jpg">
+                </div>
+            </div>
+            <hr class="line2">   
+            <div class="wrap4">
+                <div class="left">
+                    <p>Fell free to Write Us</p>
+                    <input type="text" name="" value="E-mail">
+                    <input type="text" name="" value="Subject">
+                    <input class="three" type="text" name="" value="Message">
+                    <input type="submit" value="SEND">
+                </div>
+                <div class="right">
+                    <p class="p1">Contacts</p>
+                    <p class="p2">Make any design your own using the Style<br/> Editor. Personalize fonts.colors,and 
+                    layouts to<br/> create the custom look you want.</p>
+                    <div class="item1">
+                        <span class="iconfont iconfont1 icon-Checksquare span1"></span>
+                        <span class="span2">360 King Street<br/>Feastrvale Trevose, PA 19057  </span>
+                    </div>
+                    <div class="item2">
+                        <span class="iconfont iconfont1 icon-Pencil"></span>
+                        <span>(755) 564-84-12</span>
+                    </div>
+                    <div>
+                        <span class="iconfont iconfont1 icon-shouji"></span>
+                        <span>youname@mail.com</span>
+                    </div>   
+                </div>
+            </div>
         </div>
-        <div class="bottom"></div>
+        <div class="bottom">
+            <div class="item">
+                <p class="p1">Learn More</p>
+                <p>How it works</p>
+                <p>Meeting tools</p>
+                <p>Live streaming </p>
+                <p>Contact method</p>
+            </div>
+            <div class="item">
+                <p class="p1">About Us</p>
+                <p>About us</p>
+                <p>Features</p>
+                <p>Privacy police</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="item">
+                <p class="p1">Support</p>
+                <p>F.A.Q.</p>
+                <p>Contact us</p>
+                <p> Live chat</p>
+                <p>Phone call</p>
+            </div>
+            <div class="item item4">
+                <p class="p1">Enjoy your Life</p>
+                <p>Great web UI kit for designers, freelancers or business.</p>
+                <p><span class="iconfont iconfont1 icon-Checksquare"></span>
+                    <span class="iconfont iconfont1 icon-Pencil"></span>
+                    <span class="iconfont iconfont1 icon-shouji"></span>
+                    <span class="iconfont iconfont1 icon-Setting"></span>
+                    </p>
+            </div>
+        </div>
     </section>
 </body>
 </html>
