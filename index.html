@@ -325,6 +325,17 @@
 <body>
     <section>
         <div class="layer1">
+            <h2 id="hi"></h2>
+            <script>
+                let d=new Date()
+                time=d.getHours()
+                if(time>12){
+                    document.getElementById("hi").innerHTML="hi!good night"
+                }
+                else{
+                    document.getElementById("hi").innerHTML="hi!good morning"
+                }
+            </script>
             <h1>Hello World</h1>
             <p class="p1">China is speeding up strategic plan, standards, traffic rules,laws and regulations<br/>
             on accident-incurred liabilities for its smart car industry.Economic Information<br/>
@@ -333,8 +344,8 @@
                 <p class="p2">CREATE YOUR ACCOUNT</p>
                 <p class="p3">IT IS ABSOLUTELY FREE</p>
                 <form>
-                    <input class="input1" type="text" name="email" value="denis@getcraftwork.com">
-                    <input class="input2" type="text" name="password" value="Create your password">
+                    <input class="input1" type="text" name="email" placeholder="denis@getcraftwork.com">
+                    <input class="input2" type="text" name="password" placeholder="Create your password">
                     <input class="input3" type="submit"  value="SIGN UP">
                 </form>
             </div>
@@ -456,9 +467,9 @@
             <div class="wrap4">
                 <div class="left">
                     <p>Fell free to Write Us</p>
-                    <input type="text" name="" value="E-mail">
-                    <input type="text" name="" value="Subject">
-                    <input class="three" type="text" name="" value="Message">
+                    <input type="text" name="" placeholder="E-mail">
+                    <input type="text" name="" placeholder="Subject">
+                    <input class="three" type="text" name="" placeholder="Message">
                     <input type="submit" value="SEND">
                 </div>
                 <div class="right">
