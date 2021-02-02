@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .layer1{
+            width: 100%;
+            height: 980px;
+            background: url(qe.jpg) no-repeat; 
+            background-position:0px 0px;
+            background-attachment: fixed;   
+        }
+        .layer1 h1{
+            text-align: center;
+            padding-top: 200px;
+            font-size: 30px;
+        }
+        .layer1 .p1{
+            margin-top: 100px;
+            text-align: center;   
+        }
+        .aForm{
+            border: solid 1px gray;
+            width: 985px;
+            height: 250px;/*200px*/
+            margin: 100px auto 0px;
+        }
+        .layer1 .p2{
+            text-align: center;
+            margin-top: 50px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .layer1 .p3{
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+        .layer1 form{
+            margin: 45px auto 0px;
+            width: 800px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .layer1 input{
+            height: 45px;
+            box-sizing: border-box;
+            border: solid 1px gray;
+            
+        }
+        .layer1 .input1{
+            padding: 20px 120px 20px 20px;
+            background-color: transparent;
+        }
+        .layer1 .input2{
+            padding: 20px 120px 20px 20px;
+            background-color: transparent;
+        }
+        .layer1 .input3{
+            padding: 10px 20px;   
+        }
+        .layer2{
+            height: 710px;
+        }
+        .layer2 .p1{
+            margin-top: 80px;
+            text-align: center;
+        }
+        .layer2 .p2{
+            margin-top: 35px;
+            text-align: center;
+            font-size: 35px;
+        }
+        .layer2 .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            width: 1030px;
+            margin: 85px auto 65px;
+        }
+        .layer2 .item{
+            width: 430px;
+            height: 165px;
+            display: flex;
+        }
+        .iconfont{
+            font-size: 50px;
+        }
+        .layer2 .text{
+            margin-left: 30px;
+        }
+        .layer2 .text1{
+            margin-bottom: 20px;
+        }
+        .layer3{
+            width: 100%;
+            height: 800px;
+            background: url(2.jpg) no-repeat;
+            background-size: 100% 800px;
+            position: relative;
+        }
+        .layer3 .left{
+            width: 520px;
+            height: 435px;
+            position: absolute;
+            top:180px;
+            left: 310px;
+        }
+        .layer3 .right{
+            width: 600px;
+            height: 605px;
+            border:white solid 1px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-sizing: border-box;
+            position: absolute;
+            right: 0;
+            top: 100px;
+            padding: 35px 0 25px 60px;
+        }
+        .layer3 img{
+            width: 538px;
+            height: 543px;
+        }
+        .layer3 .p1{
+            color: white;
+            font-size: 30px;
+            margin-bottom: 45px;
+        }
+        .layer3 .p2{
+            color: white;
+            margin-bottom: 55px;
+        }
+        .layer3 button{
+            width: 200px;
+            height: 50px;    
+            color: white;
+        }
+        .layer3  .button1{
+            color: black;
+        }
+
+        .layer3  .button2{
+            margin-left: 30px;
+            background-color: transparent;
+        }
+        .layer4{
+            width: 100%;
+            height: 3360px;
+        }
+        .layer4 .tittle{
+            width: 540px;
+            font-size: 30px;
+            margin: 100px auto 80px;
+        }
+        .layer4 .wrap1{
+            width: 970px;
+            height: 280px;
+            margin: 0 auto;
+        }
+        .layer4 .item{
+            width: 270px;
+            height: 280px;
+            float: left;
+        }
+        .layer4 .p1{
+            font-family: cursive;
+            font-weight: bolder;
+            font-size: 25px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .layer4 .p2{
+            color: gray;
+            text-align: center;
+
+        }
+        .layer4 .middle{
+            margin: 0 70px;
+        }
+        .line1{
+            clear: both;
+            color:gray;
+        }
+        .layer4 .wrap2{
+            width: 970px;
+            height: 780px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .wrap2 img{
+            width: 570px;
+            height: 350px;
+        }
+        .wrap2 .text1,.text2{
+            width: 300px;
+            height: 350px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="layer1">
+            <h1>Hello World</h1>
+            <p class="p1">China is speeding up strategic plan, standards, traffic rules,laws and regulations<br/>
+            on accident-incurred liabilities for its smart car industry.Economic Information<br/>
+            Daily reported Thursday </p>
+            <div class="aForm">
+                <p class="p2">CREATE YOUR ACCOUNT</p>
+                <p class="p3">IT IS ABSOLUTELY FREE</p>
+                <form>
+                    <input class="input1" type="text" name="email" value="denis@getcraftwork.com">
+                    <input class="input2" type="text" name="password" value="Create your password">
+                    <input class="input3" type="submit"  value="SIGN UP">
+                </form>
+            </div>
+        </div>
+        <div class="layer2">
+            <p class="p1">Boatloads of Awesome</p>
+            <p class="p2">Ready-made, customizable, HTML<br/> page sections</p>
+            <div class="container">
+                <div class="item">
+                    <span class="iconfont icon-shouji"></span>
+                    <div class="text">
+                        <p class="text1">Mobile First</p>
+                        <p>All modulz are built mobile-first for maximum device compatibil</p>
+                    </div>      
+                </div>
+                <div class="item">
+                    <span class="iconfont icon-Checksquare"></span>
+                    <div class="text">
+                        <p class="text1">Accessibility</p>
+                        <p>Support for IE8, mobile and tablet devices, screenreaders and color blind</p>
+                    </div>                  
+                </div>
+                <div class="item">
+                    <span class="iconfont icon-Pencil"></span>
+                    <div class="text">
+                        <p class="text1">Fluid Typography</p>
+                        <p>On different screen sizes, fonts automagically scale with the viewport</p>
+                    </div>  
+                </div>
+                <div class="item">
+                    <span class="iconfont icon-Setting"></span>
+                    <div class="text">
+                        <p class="text1">Customization</p>
+                        <p>Make any design your own using the Style Editor. Personalize fonts,colors,and layouts to<br/>
+                            create the custom look you want.</p>
+                    </div> 
+                </div>
+            </div>     
+        </div>
+        <div class="layer3">
+            <div class="left">
+                <p class="p1">Supportive policies<br/>for China's smart<br/>car</p>
+                <p class="p2">China will come up with its own smart car<br/> standards.
+                traffic rules,layers and regulations<br/> relating to safety.according
+                to the China<br/>Industy Innovation Alliance for the Intelli-<br/>gent and
+                Connected Vehicles</p>
+                <button class="button1">CHECK OUT FEATURES</button>
+                <button class="button2">TRY PRODUCT FOR FREE</button>
+            </div>
+            <div class="right">
+                <img src="1.jpg">
+            </div>
+        </div>
+        <div class="layer4">
+            <div class="tittle">
+                Try Our Awesome Products
+            </div>
+            <div class="wrap1">
+                <div class="item">
+                    <p class="p1">Singleton</p>
+                    <p class="p2">Li Jun, a China Academy of Engineering academician and also director
+                        of the alliances experts committee.said that China will also launch
+                        design guicance for smart cars samrt map architec-ture and standards
+                        for test grouds.
+                    </p>
+                </div>
+                <div class="item middle">
+                    <p class="p1">Hero</p>
+                    <p class="p2">Li said the smart car industry is able to enlarge the current car
+                        industry by 1 trillion yuan($158.15 billior) and also able to boost
+                        fast development in 5C.internet of cars.big data,artifical intelligence
+                        and new-energy Vehicles
+                    </p>
+                </div>
+                <div class="item">
+                    <p class="p1">Portland</p>
+                    <p class="p2">Zhang Junyi, a partner with NIO Capital, said that the smart car
+                        is the trend for the car industry and Chinas auto sector will usher
+                        in a new key development stage with the improvement of infrastructure.
+                        technology,policies and laws
+                    </p>
+                </div>
+            </div>
+            <hr class="line1">
+            <div class="wrap2">
+                <img src="flower.jpg">
+                <div class="text1">
+                    <p>Learn How to Improve Your Personal Business</p>
+                    <p>Li Jun, a China Academy of Engineering<br/> academician and also director of the<br/>
+                    alliances experts committe ,said that<br/>China will also launch design guicance<br/>
+                for smart cars,smart map architecture<br/> and standards for test grouds</p>
+                </div>
+                <img src="bird.jpg">
+                <div class="text2">
+                    <p>Choose Between Two Beautifully Designed Color Schemes.</p>
+                    <p>China will come up with its own smart <br/>car standards.
+                        traffic rules,layers and reg-<br/>ulations relating to safety.according
+                        to<br/> the ChinaIndusty Innovation Alliance<br/> for the Intelligent and
+                        Connected <br/>Vehicles</p></p>
+                </div>
+            </div>    
+        </div>
+        <div class="bottom"></div>
+    </section>
+</body>
+</html>
